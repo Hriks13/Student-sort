@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Sorter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Student Sorter</h1>
+  <label for="numStudents">Enter the number of students:</label>
+  <input type="number" id="numStudents" name="numStudents" required>
+  <br>
+  <label for="studentNames">Enter the names of students (separated by spaces):</label>
+  <textarea id="studentNames" name="studentNames" rows="4" cols="50" required></textarea>
+  <br>
+  <button onclick="sortStudents()">Sort Students</button>
+  <h2>Sorted Names:</h2>
+  <ul id="sortedNames"></ul>
+  <script src="script.js"></script>
+</body>
+</html>
